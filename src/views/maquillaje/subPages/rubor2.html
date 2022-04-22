@@ -16,38 +16,53 @@
 
 <body>
     <header>
-        <div class="cuadroHeader">
-            <img src="../../../assets/img/cuadroLILA.png">
-        </div>
-        <div class="cuadroHeader1">
+        <div class="grayLine"></div>
+        <div class="headerBox">
             <p>Importante: Envios nacionales entre 2 a 3 dias habiles | Envios en Bogota entre 1 a 2 dias habiles</p>
         </div>
-
-        <div class="centerSearch">
-            <img src="../../../assets/img/busqueda.svg">
-            <div class="iconos">
+        <div class="fondonav">
+            <div class="icons">
                 <i class="fa-regular fa-user fa-lg fa-derecha"></i>
                 <i class="fa-regular fa-heart fa-lg fa-derecha"></i>
                 <i class="fa-solid fa-bag-shopping fa-lg fa-derecha"></i>
             </div>
-        </div>
-        
-
-        <div class="fondonav">
             <nav>
-                <input type="checkbox" name="check" id="check">
+                <input type="checkbox" name="check" id="chk-menu">
+                <label for="chk-menu" class=" btn-menu"><i class="fas fa-bars"></i></label>
                 
                 <ul class="nav-menu">
-                    <li><a href="index1.html" class="active">INICIO</a></li>
-                    <li><a href="views/maquillajeIndex.html">MAQUILLAJE</a></li>
-                    <li><a href="views/ropaIndex.html">MODA</a></li>
-                    <li><a href="views/tips.html">TIPS</a></li>
-                    <li><a href="views/experiencias.html">EXPERIENCIAS</a></li>
-                    <li><a href="views/nosotros.html">NOSOTROS</a></li>
-                    <li><a href="views/contactenos.html">CONTACTO</a></li>
+                    <li><a href="index.html" class="active item">INICIO</a></li>
+                    <li><a href="./src/views/maquillaje/indexmakeup.html" class="item">MAQUILLAJE <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="./src/views/maquillaje/subPages/rubor.html"></a>Rubor</li>
+                            <li><a href="./src/views/maquillaje/subPages/ojos.html"></a>Ojos</li>
+                            <li><a href="./src/views/maquillaje/subPages/piel.html"></a>Piel</li>
+                            <li><a href="./src/views/maquillaje/subPages/labios.html"></a>Labios</li>
+                        </ul></li>
+                    <li><a href="./src/views/ropa/index/ropaIndex.html" class="item">MODA <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="./src/views/ropa/secondaryPages/productosRS.html"></a>Vestidos</li>
+                            <li><a href="./src/views/ropa/secondaryPages/diseñaRS.html"></a>Diseña tu look</li>
+                            <li><a href="./src/views/ropa/secondaryPages/tendenciasRS.HTML"></a>Novedades</li>
+                            <li><a href="./src/views/ropa/secondaryPages/descuentosRS.html"></a>Promociones</li>
+                        </ul></li></li>
+                    <li><a href="/src/views/tips/tips.html" class="item">TIPS</a>
+                        <ul class="submenu">
+                            <li><a href="./src/views/tips/maquillaje.html"></a>Tips Maquillaje</li>
+                            <li><a href="./src/views/tips/ropa.html"></a>Tips Ropa</li>
+                        </ul>
+                    </li>
                     
                 </ul>
-                <label for="check" class=" bar-btn"><i class="fas fa-bars fa-xs"></i></label>
+                <div class="logo"><img src="src/assets/img/logo 1.svg"></div>
+                <ul class="nav-menu">
+                    
+                    <li><a href="/src/views/contacto/contacto.html" class="item">EXPERIENCIAS</a></li>
+                    <li><a href="/src/views/contacto/contacto.html" class="item">NOSOTROS</a></li>
+                    <li><a href="/src/views/contacto/contacto.html" class="item">CONTACTO</a></li>
+                    
+                </ul>
+                
             </nav>
         </div>
     </header>
