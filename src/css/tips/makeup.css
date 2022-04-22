@@ -1,0 +1,128 @@
+<<<<<<< HEAD
+/* body{
+    font-family: 'Montserrat', sans-serif;
+} */
+
+=======
+>>>>>>> 472dc6e46ea7feeb882a8bc5a2618a4cae896769
+.imgfondo{
+    background-image: url(../../assets/img/tips/imgTipsMakeup.png);
+    background-size: cover;
+    width: 100%;
+    height: 80px;
+}
+
+.Makeup-all{
+    background-color: #f7f5fc;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.ImgMakeup{
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.Makeup p{
+    text-align: justify;
+    margin-bottom: 20px;
+<<<<<<< HEAD
+    font-size: 10px;
+=======
+    font-size: 3vw;
+>>>>>>> 472dc6e46ea7feeb882a8bc5a2618a4cae896769
+}
+
+.Makeup span h3{
+    font-weight: bold;
+    color: #AA95C7;
+    font-size: 3vw;
+}
+
+.ImgMakeupp{
+    width: 150px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: tableta ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:768px) {
+    .imgfondo{
+        height: 200px;
+    }
+
+    .Makeup-all{
+        margin: auto;
+        padding-top: 3rem;
+    }
+
+    .ImgMakeup{
+        min-width: 250px;
+    }
+    .Makeup p{
+        line-height: 1.5rem;
+        font-size: 1.5vw;
+    }
+
+    .Makeup span h3{
+        font-size: 1.5vw;
+    }
+
+    .ImgMakeupp{
+        min-width: 250px;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: medio ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1024px) {
+    .imgfondo{
+        height: 250px;
+    }
+
+    .Makeup-all{
+        margin: auto;
+        padding-top: 5rem;
+    }
+
+    .ImgMakeup{
+        width: 370px;
+    }
+    .Makeup p{
+        line-height: 2rem;
+    }
+
+    .ImgMakeupp{
+        min-width: 370px;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: grande ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1366px) {
+    .imgfondo{
+        height: 350px;
+    }
+
+    .Makeup-all{
+        margin: auto;
+        padding-top: 5rem;
+    }
+
+    .ImgMakeup{
+        min-width: 280px;
+        padding-right: 20px;
+    }
+    .Makeup p{
+        line-height: 2rem;
+    }
+
+    .ImgMakeupp{
+        min-width: 250px;
+    }
+}

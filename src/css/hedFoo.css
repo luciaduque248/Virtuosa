@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root{
+    --c1-color: #d0c6e3;
+    --c2-color: #aa95c7;
+    --c3-color: #621ced;
+    --c4-color: #d6eefd;
+    --c5-color: #19191a;
+    --c6-color: #ef594c;
+    --c7-color: #d6ceff;
+    --c8-color: #f29778;
+    --c9-color: #f5f5f5;
+    --c10-color: #C063FA;
+}
+    
+/* font-family: 'Bebas Neue', cursive; */
+
+
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    font-size: 16px;
+    min-height: 100%;
+}
+header{
+    grid-area: header;
+    margin: 0; 
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    
+    grid-template-areas: 
+    "gline"  
+    "boxline "
+    "navbar ";
+    text-align: center;
+}
+nav{
+    grid-area: navbar;
+}
+.container-grid{
+    display: grid;
+    margin: 0;
+    grid-template-columns: 100%;
+    grid-template-rows:100px;
+    grid-template-areas: 
+    "header"  
+    ;
+    text-align: center;
+}
+/* ----------------------------------  | HEADER | ----------------------------------*/
+.grayLine{
+    grid-area: gline;
+    height: 15px;
+    width: 100%;
+    background-color: var(--c2-color);
+    margin-bottom: 0;
+}
+.headerBox{
+    display: flex;
+    grid-area: boxline;
+    height: 30px;
+    width: 100%;
+    background-color:  #655F5F;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 0;
+}
+.headerBox p{
+    font-size: 2vw;
+    text-align: center;
+    color: var(--c9-color);
+}
+.icons{
+    position: absolute;
+    top: 12%;
+    left: 85%;
+    color: #312B89;
+    display: none;
+    
+}
+.fa-derecha{
+    margin: 0 1rem;
+}
+nav{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1rem;
+    justify-content: center;
+}
+.nav-menu .nav-menu li a{
+    line-height: 50px;
+}
+#chk-menu{
+    display: none;
+    
+}
+#chk-menu:checked ~ .nav-menu {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   
+}
+
+
+.btn-menu{
+    color: #655F5F;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.nav-menu {
+    display: none;
+}
+.item{
+    padding:2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+}
+.item a:hover{
+    color: #621ced;
+}
+.active{
+    color: #621ced;
+}
+
+.logo{
+    color: #655F5F;
+    display: none;
+}
+.submenu{
+    margin: auto;
+    position: absolute;
+    display: none;
+    background-color: white;
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
+    padding:2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+}
+.nav-menu .submenu li a{
+    line-height: 50px;
+}
+ .nav-menu .item:hover + ul, .nav-menu .submenu:hover{
+    margin: auto;
+    display: block;
+}
+.nav-menu .submenu a:hover, .nav-menu .submenu li:hover{
+    color: #621ced;
+    cursor: pointer;
+}
+/* ::::::::::::::::::::::::::::::::::::::::: FOOTER ::::::::::::::::::::::::::::::::::::::::: */
+footer{
+    background-color: #f5f5f5;
+    color: #313030;
+   z-index: 10;
+    border-top: solid;
+}
+
+
+footer .grupo-1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 100px 2rem;
+    position: relative;
+}
+
+footer .grupo-1 .box {
+    text-align: left;
+}
+
+footer .grupo-1 .box h4{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 300;
+    
+}
+
+footer iframe{
+    border-radius: 100%;
+    margin: 1rem 0;
+    position: relative;
+    left: 1.2rem;
+    display: none;
+}
+
+footer .grupo-1 .box h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+footer .grupo-1 .box .informacion h2{
+    margin-top: 1.5rem;
+    position: relative;
+    left: 1.2rem;
+}
+
+footer .grupo-1 .box p{
+    margin-left: 8rem;
+    margin-bottom: 5px;
+    line-height: 1.5rem;
+    border-left: 5px solid var(--c2-color);
+    border-radius: 4%;
+    font-weight: 300;
+    font-size: 2vw;
+    padding-left: 0.5rem;
+    
+}
+
+footer .grupo-1 .box a{
+    color: #313030;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-size: 2vw;
+}
+
+.atajos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+.atajos i{
+    margin: 0 0.5rem;
+    margin-left: -1rem;
+    color: var(--c2-color);
+}
+
+.suscribete h6{
+    font-size: 1vw;
+    font-weight: 300;
+    text-align: center;
+}
+
+.suscribete button{
+    background-color: var(--c2-color);
+    border-style: solid;
+    border: none;
+    padding: 0.5rem ;
+    border-radius: 30px;
+    position: relative;
+    left: 5rem;
+    top: 1.5rem;
+    font-size: 1vw;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.red-social{
+    position: relative;
+    left: 5rem;
+    top: 3rem;
+}
+
+.red-social i{
+    margin: 0 5px;
+    color: var(--c2-color);
+}
+
+footer .grupo-2{
+    background-color: #313030;
+    padding: 15px 10px;
+    text-align: center;
+    color: #313030;
+}
+
+footer .grupo-2 small{
+    font-size: 15px;    
+}
+
+/*--------------------- | RESOLUCIÓN TABLETA | ---------------------*/
+@media screen and (min-width: 768px) {
+   
+    .headerBox p{
+        font-size: 1.3vw;
+    }
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: initial;
+        
+    }
+     .nav-menu {
+        display: flex;
+        flex-direction: row;
+        border-top: #655F5F solid 2px;
+        padding: 1rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+    .btn-menu{
+        display: none;
+    }
+    .logo{
+        display: flex;
+    }
+    .logo img{
+        width: 80%;
+    }
+    .item, .submenu{
+        font-size: 1vw;
+    }
+    #chk-menu:checked ~ .nav-menu {
+        display: none;
+    }
+    footer .grupo-1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 45px 2rem;
+    }
+    footer .grupo-1 .box a{
+        color: #313030;
+        text-decoration: none;
+        margin-top: 1rem;
+        font-size: 16px;
+    }
+}
+
+/*--------------------- | RESOLUCIÓN MEDIA | ---------------------*/
+@media screen and (min-width: 1024px) {
+    .headerBox p{
+        font-size: 1vw;
+    }
+    footer .grupo-1{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 45px 2rem;
+    }
+    
+footer iframe{
+    border-radius: 100%;
+    margin: 1rem 0;
+    position: relative;
+    left: 1.2rem;
+    display: block;
+}
+.suscribete h6{
+    font-size: 1vw;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+}
+
+/*--------------------- | RESOLUCIÓN MACRO | ---------------------*/
+@media screen and (min-width: 1200px) {
+
+}

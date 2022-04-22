@@ -1,0 +1,213 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.slide-contacto{
+    margin-top: 87px;
+    background-image: url(../img/slideTps.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 445px;
+}
+
+.slide-contacto h1{
+    text-shadow: 3px 3px 2px rgba(46, 45, 45, 0.452);
+    padding-top: 0rem;
+    padding-right: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    /* width: 500px; */
+    color: white;
+    /* font-weight: 400; */
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.contactenos {
+=======
+.imgfondo{
+    background-image: url(../../assets/img/tips/imgContactanos.png);
+    background-size: cover;
+    width: 100%;
+    height: 80px;
+}
+
+.contactenos{
+    font-size: 3vw;
+}
+
+.container {
+>>>>>>> 472dc6e46ea7feeb882a8bc5a2618a4cae896769
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+<<<<<<< HEAD
+.contact-wrapper > * {
+    padding: 1em;
+=======
+.contact-form {
+    background: #f7f5fc;
+>>>>>>> 472dc6e46ea7feeb882a8bc5a2618a4cae896769
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+<<<<<<< HEAD
+    color: #9A8975;
+    font-size: 18PX;
+    font-weight: bold;
+=======
+>>>>>>> 472dc6e46ea7feeb882a8bc5a2618a4cae896769
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+<<<<<<< HEAD
+    border-bottom: 1.5px solid #F2977B;
+}
+
+.contact-form form button {
+    background: #AA95C7;
+    border: 0;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+=======
+    border-bottom: 2px solid #aa95c7;
+}
+
+.contact-form form button {
+    background: #f29778;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 10px;
+>>>>>>> 472dc6e46ea7feeb882a8bc5a2618a4cae896769
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+<<<<<<< HEAD
+    background: #F2977B;
+    color: #fff;
+    transition: background-color 0.2s ease-out;
+=======
+    background: #ef594c;
+    color: #fff;
+    transition: background-color 1s ease-out;
+>>>>>>> 472dc6e46ea7feeb882a8bc5a2618a4cae896769
+    outline: 0;
+}
+
+/* CONTACT INFO */
+<<<<<<< HEAD
+.contact-info i {
+    color: #AA95C7;
+=======
+.contact-info {
+    background: #c2bfbf;
+    text-align: justify;
+}
+
+.contact-info p{
+    
+>>>>>>> 472dc6e46ea7feeb882a8bc5a2618a4cae896769
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+<<<<<<< HEAD
+    font-size: 18px;
+    line-height: 22px;
+    color: #9A8975;
+=======
+}
+.contact-info i{
+    color: #f29778;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: tableta ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:768px){
+
+    .imgfondo{
+        height: 200px;
+    }
+
+    .contactenos{
+        font-size: 2vw;
+        padding: 20px;
+    }
+
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: medio ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1024px) {
+    .imgfondo{
+        height: 250px;
+    }
+
+    .contactenos{
+        font-size: 1.5vw;
+        padding: 20px;
+    }
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: grande ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1366px) {
+    .imgfondo{
+        height: 300px;
+    }
+>>>>>>> 472dc6e46ea7feeb882a8bc5a2618a4cae896769
+}

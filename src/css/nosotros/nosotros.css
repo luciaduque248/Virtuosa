@@ -1,0 +1,108 @@
+.imgfondo{
+    background-image: url(../../assets/img/tips/nosotros.png);
+    background-size: cover;
+    width: 100%;
+    height: 80px;
+}
+
+.Nosotros-all{
+    background-color: #f7f5fc;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.Imglogo{
+    width: 150px;
+    margin-left: 50px;
+}
+
+.nosotros h2{
+    text-align: center;
+    font-size: 3vw;
+}
+.nosotros p{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 3vw;
+}
+
+.nosotros span{
+    font-weight: bold;
+    font-size: 3vw;
+    color: #AA95C7;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: tableta ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:768px){
+    .imgfondo{
+        height: 200px;
+    }
+
+    .Makeup-all{
+        margin: auto;
+        padding-top: 3rem;
+    }
+
+    .Imglogo{
+        width: 200px;
+        margin-left: -10px;
+        float: left;
+    }
+    
+    .nosotros h2{
+        font-size: 1.5vw;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .nosotros p{
+        margin-bottom: 20px;
+        line-height: 1.5rem;
+        font-size: 1.5vw;
+    }   
+
+    .nosotros span{
+        font-size: 1.5vw;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: medio ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1024px) {
+    .imgfondo{
+        height: 250px;
+    }
+
+    .Imglogo{
+        width: 300px;
+    }
+    
+    .nosotros h2{
+        font-size: 20px;
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+    }
+    
+    .nosotros p{
+        margin-bottom: 20px;
+        line-height: 2rem;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: grande ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1366px) {
+    .imgfondo{
+        height: 300px;
+    }
+
+    .Imglogo{
+        width: 400px;
+    }
+    
+    .nosotros p{
+        margin-bottom: 20px;
+        line-height: 2rem;
+    }
+}

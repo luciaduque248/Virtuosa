@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="/src/css/index.css">
+    <link rel="stylesheet" href="/src/css/ropa/descuentosRS.css">
+    <link rel="stylesheet" href="/src/css/hedFoo.css">
+
+    <link rel="icon" type="image/png" href="/src/assets/img/logo.svg">
+
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/4bc23db062.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="grayLine"></div>
+        <div class="headerBox">
+            <p>Importante: Envios nacionales entre 2 a 3 dias habiles | Envios en Bogota entre 1 a 2 dias habiles</p>
+        </div>
+        <div class="fondonav">
+            <div class="icons">
+                <i class="fa-regular fa-user fa-lg fa-derecha"></i>
+                <i class="fa-regular fa-heart fa-lg fa-derecha"></i>
+                <i class="fa-solid fa-bag-shopping fa-lg fa-derecha"></i>
+            </div>
+            <nav>
+                <input type="checkbox" name="check" id="chk-menu">
+                <label for="chk-menu" class=" btn-menu"><i class="fas fa-bars"></i></label>
+                
+                <ul class="nav-menu">
+                    <li><a href="/index.html" class="active item">INICIO</a></li>
+                    <li><a href="/src/views/maquillaje/maquillajeIndex.html" class="item">MAQUILLAJE <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#"></a>Rubor</li>
+                            <li><a href="#"></a>Ojos</li>
+                            <li><a href="#"></a>Piel</li>
+                            <li><a href="#"></a>Labios</li>
+                        </ul></li>
+                    <li><a href="/src/views/ropa/index/ropaIndex.html" class="item">MODA <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#"></a>Vestidos</li>
+                            <li><a href="#"></a>Diseña tu look</li>
+                            <li><a href="#"></a>Novedades</li>
+                            <li><a href="#"></a>Promociones</li>
+                        </ul></li></li>
+                    <li><a href="/src/views/tips/tips.html" class="item">TIPS</a>
+                        <ul class="submenu">
+                            <li><a href="/src/views/tips/maquillaje.html"></a>Tips Maquillaje</li>
+                            <li><a href="/src/views/tips/ropa.html"></a>Tips Ropa</li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                <div class="logo"><img src="/src/assets/img/logo 1.svg"></div>
+                <ul class="nav-menu">
+                    
+                    <li><a href="/src/views/contacto/contacto.html" class="item">EXPERIENCIAS</a></li>
+                    <li><a href="/src/views/contacto/contacto.html" class="item">NOSOTROS</a></li>
+                    <li><a href="/src/views/contacto/contacto.html" class="item">CONTACTO</a></li>
+                    
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h1>-50%</h1>
+    </section>
+
+    <main class="contenedor">
+        <h1>Descuentos</h1>
+        <div class="container">
+            <div class="boton1">
+                <select name="corte" id="corte">
+                    <option value="0" selected>Corte</option>
+                    <option value="1">Corto</option>
+                    <option value="2">Semicorto</option>
+                    <option value="3">Largo</option>
+                </select>
+                <select name="talla" id="talla">
+                    <option value="0" selected>Talla</option>
+                    <option value="1">XXS</option>
+                    <option value="2">XS</option>
+                    <option value="3">S</option>
+                    <option value="4">M</option>
+                    <option value="5">L</option>
+                    <option value="6">XL</option>
+                    <option value="7">XXL</option>
+                </select>
+                <select name="ocasion" id="ocasion">
+                    <option value="0" selected>Ocasion</option>
+                    <option value="1">Casual</option>
+                    <option value="2">Noche</option>
+                    <option value="3">Vestido de gala</option>
+                    <option value="4">Work</option>
+                </select>
+                <select name="color" id="color">
+                    <option value="0" selected>Color</option>
+                    <option value="1">Rojo</option>
+                    <option value="2">Blanco</option>
+                    <option value="3">Negro</option>
+                    <option value="4">Morado</option>
+                    <option value="5">Lila</option>
+                </select>
+            </div>
+
+            <div class="boton2">
+                <select name="popularidad" id="popularidad" class="popularidad">
+                    <option value="0" selected>Ordenar por </option>
+                    <option value="1">Popularidad</option>
+                    <option value="2">Precio de menor a mayor</option>
+                    <option value="3">Precio de mayor a menor</option>
+                    <option value="4">Novedades</option>
+                </select>
+            </div>
+          </div>
+        
+        <div class="container2">
+            <div class="card">
+                <div class="venta1">
+                    <a href="#modal"><img src="https://res.cloudinary.com/colombia/image/upload/v1650498773/kuepa/descuentos/1/20WWVK61_3007_1_a7gbkb.jpg" alt=""></a>
+                </div>
+                <div class="text-card" id="product1">
+                    <a href="#modal">
+                        <h4>Vestido midi acampanado</h4>
+                    </a>
+                    <p>$ 100.000</p>
+                    <div class="select-icon">
+                        <select name="cantidad" id="cantidad">
+                            <option value="0" selected>Cant.</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+
+                    <section id="modal" class="modal">
+                        <a href="#producto1" class="close"> X </a>
+                        <div class="modalContainer">
+                            <figure class="modalPicture ">
+                                <img src="https://res.cloudinary.com/colombia/image/upload/v1650498773/kuepa/descuentos/1/20WWVK61_3007_1_a7gbkb.jpg" class="modalImg" alt="">
+                            </figure>
+                            <figure class="modalTEXT">
+                                <h2 class="modalTitle">Vestido midi acampanado</h2>
+                                <p class="modalP">Un vestido que te sienta bien todo el año. De silueta entallada y estampado de vuelo, su largo midi es cómodo y muy actual, al igual que el estampado de bandas diagonales con motivos florales. Con cuello redondo y sin mangas.
+                                </p>
+                                <div class="charact">
+                                    <ul>
+                                        <li>Cuello redondo</li>
+                                        <li>Estampado con diferentes motivos florales en bandas diagonales</li>
+                                        <li>Capa superior de tejido semitransparente (malla)</li>
+                                        <li>Revestimiento interior</li>
+                                        <li>Acampanado</li>
+                                        <li>Midi</li>
+                                        <li>Sin mangas</li>
+                                    </ul>
+                                </div>
+                                <div class="select-icon">
+                                    <select name="cantidad" id="cantidad">
+                                        <option value="0" selected>Cant.</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                            </figure>
+                        </div>
+                    </section>
+                    
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="venta2">
+                    <a href="#modal2">
+                        <img src="https://res.cloudinary.com/colombia/image/upload/v1650501049/kuepa/descuentos/2/22SWVW76_9019_1_ubossb.jpg" alt="">
+                    </a>
+                </div>
+                <div class="text-card" id="product1">
+                    <a href="#modal2">
+                        <h4>Pichi patchwork Johnson Hartig</h4>
+                    </a>
+                    <p>$ 100.000</p>
+                    <div class="select-icon">
+                        <select name="cantidad" id="cantidad">
+                            <option value="0" selected>Cant.</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+                    
+                    <section id="modal2" class="modal">
+                        <a href="#producto1" class="close"> X </a>
+                        <div class="modalContainer">
+                            <figure class="modalPicture ">
+                                <img src="https://res.cloudinary.com/colombia/image/upload/v1650501049/kuepa/descuentos/2/22SWVW76_9019_1_ubossb.jpg" class="modalImg" alt="">
+                            </figure>
+                            <figure class="modalTEXT">
+                                <h2 class="modalTitle">Pichi patchwork Johnson Hartig</h2>
+                                <p class="modalP">Parece un vestido minifaldero pero esconde debajo unos shorts para mayor comodidad . Este pichi lleno de un mosáico hipnótico de estampados está diseñado por Johnson Hartig y confeccionado en un agradable algodón más sostenible.</p>
+                                <div class="charact">
+                                    <ul>
+                                        <li>Escote redondo</li>
+                                        <li>Cierre de cremallera</li>
+                                        <li>Dos bolsillos delanteros</li>
+                                        <li>Mix de estampados formando un mosaico infinito</li>
+                                        <li>Mini pantalón debajo de la falda que se ve en la parte trasera</li>
+                                        <li>Tejido de algodón muy suave.</li>
+                                        <li>Fibras sostenibles: Algodón BCI</li>
+                                        <li>Sin mangas</li>
+                                    </ul>
+                                </div>
+                                <div class="select-icon">
+                                    <select name="cantidad" id="cantidad">
+                                        <option value="0" selected>Cant.</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                            </figure>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="venta3">
+                    <a href="#modal3">
+                        <img src="/src/assets/img/ropa/banner/apartados/descuentos/descuento3.png" alt="">
+                    </a>
+                </div>
+                <div class="text-card" id="product1">
+                    <a href="#modal3"><h4>Vestido midi escote espalda</h4></a>
+                    <p>$ 100.000</p>
+                    <div class="select-icon">
+                        <select name="cantidad" id="cantidad">
+                            <option value="0" selected>Cant.</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+                    <section id="modal3" class="modal">
+                        <a href="#producto1" class="close"> X </a>
+                        <div class="modalContainer">
+                            <figure class="modalPicture ">
+                                <img src="/src/assets/img/ropa/banner/apartados/descuentos/descuento3.png" class="modalImg" alt="">
+                            </figure>
+                            <figure class="modalTEXT">
+                                <h2 class="modalTitle">Vestido midi escote espalda</h2>
+                                <p class="modalP">Vestido midi ajustado confeccionado con un suave canalé liso, mangas cortas abullonadas con estampado de flores y escote en la espalda en forma ovalada.
+                                </p>
+                                <div class="charact">
+                                    <ul>
+                                        <li>Escote circular en la espalda</li>
+                                        <li>Interior forrado a tono</li>
+                                        <li>Fibras sostenibles: Lenzing TM Ecovero TM</li>
+                                        <li>Composición exterior: 6% ELASTANO, 8% ALGODON, 86% VISCOSA</li>
+                                    </ul>
+                                </div>
+                                <div class="select-icon">
+                                    <select name="cantidad" id="cantidad">
+                                        <option value="0" selected>Cant.</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                            </figure>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="venta4">
+                    <a href="#modal4">
+                        <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dw51e05be0/images/B2C/22SWVK46_2000_1.jpg?sfrm=jpg&sw=538" alt="">
+                    </a>
+                </div>
+                <div class="text-card" id="product1">
+                    <a href="#modal4">
+                        <h4>Vestido orquídeas</h4>
+                    </a>
+                    <p>$ 100.000</p>
+                    <div class="select-icon">
+                        <select name="cantidad" id="cantidad">
+                            <option value="0" selected>Cant.</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+
+                    <section id="modal4" class="modal">
+                        <a href="#producto1" class="close"> X </a>
+                        <div class="modalContainer">
+                            <figure class="modalPicture ">
+                                <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dw51e05be0/images/B2C/22SWVK46_2000_1.jpg?sfrm=jpg&sw=538" class="modalImg" alt="">
+                            </figure>
+                            <figure class="modalTEXT">
+                                <h2 class="modalTitle">Vestido orquídeas</h2>
+                                <p class="modalP">Punto y tul en viscosa ecológica con estampado de orquídeas. Este vestido tiene mangas largas semitransparentes, falda a capas y cuello mao que se sujeta con un cordón.
+                                </p>
+                                <div class="charact">
+                                    <ul>
+                                        <li>Cuello mao</li>
+                                        <li>Cierre con cordón</li>
+                                        <li>Estampado floral de orquídeas</li>
+                                        <li>Falda a capas</li>
+                                        <li>Mangas semitransparentes en tul</li>
+                                        <li>Evasé</li>
+                                        <li>Por la rodilla</li>
+                                        <li>Manga larga</li>
+                                        <li>Viscosa Lenzing Ecovero</li>
+                                    </ul>
+                                </div>
+                                <div class="select-icon">
+                                    <select name="cantidad" id="cantidad">
+                                        <option value="0" selected>Cant.</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                            </figure>
+                        </div>
+                    </section>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="venta5">
+                    <a href="#modal5">
+                        <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dw521218a9/images/B2C/22SWVW56_2000_1.jpg?sfrm=jpg&sw=538" alt="">
+                    </a>
+                </div>
+                <div class="text-card" id="product1">
+                    <a href="#modal5">
+                        <h4>Vestido cut-out floral</h4>
+                    </a>
+                    <p>$ 100.000</p>
+                    <div class="select-icon">
+                        <select name="cantidad" id="cantidad">
+                            <option value="0" selected>Cant.</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+                    <section id="modal5" class="modal">
+                        <a href="#producto1" class="close"> X </a>
+                        <div class="modalContainer">
+                            <figure class="modalPicture ">
+                                <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dw521218a9/images/B2C/22SWVW56_2000_1.jpg?sfrm=jpg&sw=538" class="modalImg" alt="">
+                            </figure>
+                            <figure class="modalTEXT">
+                                <h2 class="modalTitle">Vestido cut-out floral</h2>
+                                <p class="modalP">Un patrón muy tendencia con este corte maxi con cuello cerrado y cut-outs laterales en la cintura. El estampado de este vestido boho es de flores de diversos tamaños y colores. Confeccionado en viscosa ecológica.
+                                </p>
+                                <div class="charact">
+                                    <ul>
+                                        <li>Cuello redondo</li>
+                                        <li>Estampado floral de diversos tamaños</li>
+                                        <li>Cut-outs laterales</li>
+                                        <li>Boho</li>
+                                        <li>Largo maxi</li>
+                                        <li>Sin mangas</li>
+                                        <li>Viscosa Lenzing Ecovero</li>
+                                    </ul>
+                                </div>
+                                <div class="select-icon">
+                                    <select name="cantidad" id="cantidad">
+                                        <option value="0" selected>Cant.</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                            </figure>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="card">
+                <div class="venta6">
+                    <a href="#modal6">
+                        <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dw900c6eb6/images/B2C/22SWVK45_2000_1.jpg?sfrm=jpg&sw=538" alt="">
+                    </a>
+                </div>
+                <div class="text-card" id="product1">
+                    <a href="#modal6">
+                        <h4>Vestido rushing floral</h4>
+                    </a>
+                    <p>$ 100.000</p>
+                    <div class="select-icon">
+                        <select name="cantidad" id="cantidad">
+                            <option value="0" selected>Cant.</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+                    <section id="modal6" class="modal">
+                        <a href="#producto1" class="close"> X </a>
+                        <div class="modalContainer">
+                            <figure class="modalPicture ">
+                                <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dw900c6eb6/images/B2C/22SWVK45_2000_1.jpg?sfrm=jpg&sw=538" class="modalImg" alt="">
+                            </figure>
+                            <figure class="modalTEXT">
+                                <h2 class="modalTitle">Vestido rushing floral</h2>
+                                <p class="modalP">Confeccionado en tul de viscosa ecológica con estampado full print floral en tonos vivos. Este vestido tiene rushing por todo el cuerpo, queda por encima de la rodilla y tiene mangas abullonadas.
+                                </p>
+                                <div class="charact">
+                                    <ul>
+                                        <li>Escote cuadrado</li>
+                                        <li>Estampado floral multicolor</li>
+                                        <li>Slim fit</li>
+                                        <li>Minifalda</li>
+                                        <li>Manga corta</li>
+                                        <li>Viscosa Lenzing Ecovero</li>
+                                    </ul>
+                                </div>
+                                <div class="select-icon">
+                                    <select name="cantidad" id="cantidad">
+                                        <option value="0" selected>Cant.</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                            </figure>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="venta7">
+                    <a href="#modal7">
+                        <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dwc1f3eb31/images/B2C/22SWVK45_2023_1.jpg?sfrm=jpg&sw=538" alt="">
+                    </a>
+                </div>
+                <div class="text-card" id="product1">
+                    <a href="#modal7"><h4>Vestido rushing floral</h4></a>
+                    <p>$ 100.000</p>
+                    <div class="select-icon">
+                        <select name="cantidad" id="cantidad">
+                            <option value="0" selected>Cant.</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+                    <section id="modal7" class="modal">
+                        <a href="#producto1" class="close"> X </a>
+                        <div class="modalContainer">
+                            <figure class="modalPicture ">
+                                <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dwc1f3eb31/images/B2C/22SWVK45_2023_1.jpg?sfrm=jpg&sw=538" class="modalImg" alt="">
+                            </figure>
+                            <figure class="modalTEXT">
+                                <h2 class="modalTitle">Vestido rushing floral</h2>
+                                <p class="modalP">Confeccionado en tul de viscosa ecológica con estampado full print floral en blanco y negro. Este vestido tiene rushing por todo el cuerpo, queda por encima de la rodilla y tiene mangas abullonadas.
+                                </p>
+                                <div class="charact">
+                                    <ul>
+                                        <li>Escote cuadrado</li>
+                                        <li>Estampado floral en blanco y negro</li>
+                                        <li>Slim fit</li>
+                                        <li>Minifalda</li>
+                                        <li>Manga corta</li>
+                                        <li>Viscosa Lenzing Ecovero</li>
+                                    </ul>
+                                </div>
+                                <div class="select-icon">
+                                    <select name="cantidad" id="cantidad">
+                                        <option value="0" selected>Cant.</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                            </figure>
+                        </div>
+                    </section>
+                    
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="venta8">
+                    <a href="#modal8">
+                        <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dwb86b4915/images/B2C/20WWVKXE_2020_1.jpg?sfrm=jpg&sw=538" alt="">
+                    </a>
+                </div>
+                <div class="text-card" id="product1">
+                    <a href="#modal8">
+                        <h4>Vestido ajustado hasta la rodilla</h4>
+                    </a>
+                    <p>$ 100.000</p>
+                    <div class="select-icon">
+                        <select name="cantidad" id="cantidad">
+                            <option value="0" selected>Cant.</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+                    <section id="modal8" class="modal">
+                        <a href="#producto1" class="close"> X </a>
+                        <div class="modalContainer">
+                            <figure class="modalPicture ">
+                                <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dwb86b4915/images/B2C/20WWVKXE_2020_1.jpg?sfrm=jpg&sw=538" class="modalImg" alt="">
+                            </figure>
+                            <figure class="modalTEXT">
+                                <h2 class="modalTitle">Vestido ajustado hasta la rodilla</h2>
+                                <p class="modalP">Un estampado oscuro, aparentemente abstracto, deja ver mariposas de colores revoloteando por toda la prenda. Con cuello redondo y corte ajustado, llega a la rodilla y tiene una capa superior que deja entrever el forro interior.
+                                </p>
+                                <div class="charact">
+                                    <ul>
+                                        <li>Cuello redondo</li>
+                                        <li>Estampado de mariposas sobre fondo negro</li>
+                                        <li>Capa superior de viscosa semitransparente</li>
+                                        <li>Forro interior negro</li>
+                                        <li>Silueta entallada</li>
+                                        <li>Ajustado</li>
+                                        <li>Hasta la rodilla</li>
+                                        <li>Manga francesa</li>
+                                    </ul>
+                                </div>
+                                <div class="select-icon">
+                                    <select name="cantidad" id="cantidad">
+                                        <option value="0" selected>Cant.</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                            </figure>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="venta9">
+                    <a href="#modal9">
+                        <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dw6c54745d/images/B2C/22SWVW49_1000_1.jpg?sfrm=jpg&sw=538" alt="">
+                    </a>
+                </div>
+                <div class="text-card" id="product1">
+                    <a href="#modal9">
+                        <h4>Vestido boho safari</h4>
+                    </a>
+                    <p>$ 100.000</p>
+                    <div class="select-icon">
+                        <select name="cantidad" id="cantidad">
+                            <option value="0" selected>Cant.</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+                    <section id="modal9" class="modal">
+                        <a href="#producto1" class="close"> X </a>
+                        <div class="modalContainer">
+                            <figure class="modalPicture ">
+                                <img src="https://www.desigual.com/dw/image/v2/BCVV_PRD/on/demandware.static/-/Sites-desigual-m-catalog/default/dw6c54745d/images/B2C/22SWVW49_1000_1.jpg?sfrm=jpg&sw=538" class="modalImg" alt="">
+                            </figure>
+                            <figure class="modalTEXT">
+                                <h2 class="modalTitle">Vestido boho safari</h2>
+                                <p class="modalP">Confeccionado en tejido elástico de viscosa ecológica, este vestido camisero tiene falda evasé y lazada a la cintura. Su estampado, es fotográfico floral de flores silvestres.
+                                </p>
+                                <div class="charact">
+                                    <ul>
+                                        <li>Cuello camisero</li>
+                                        <li>Cierre de botones</li>
+                                        <li>Bolsillos superiores y laterales</li>
+                                        <li>Estampado fotográfico floral</li>
+                                        <li>Lazada a la cintura</li>
+                                        <li>Regular fit</li>
+                                        <li>Minifalda</li>
+                                        <li>Manga corta</li>
+                                        <li>Viscosa Lenzing Ecovero</li>
+                                    </ul>
+                                </div>
+                                <div class="select-icon">
+                                    <select name="cantidad" id="cantidad">
+                                        <option value="0" selected>Cant.</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                            </figure>
+                        </div>
+                    </section>
+                </div>
+            </div>
+          </div>
+
+
+    <div class="container3">
+            <div class="solo"></div>
+            <div class="botones">
+                <h2 class="bt-1"><a href="./productosRS.html">1</a></h2>
+                <h3 class="bt-2"><a href="./productosRS.html">2</a></h3>
+                <h3 class="bt-3"><a href="./productosRS.html">3</a></h3>
+                <h3 class="bt-4"><a href="./productosRS.html">...</a></h3>
+            </div>
+            <div class="solo2"></div>
+    </div>
+
+    </main>
+    
+</body>
+
+<footer>
+    <div class="grupo-1">
+        <div class="box">
+            <h2>Visitanos</h2>
+            <h4>Cra. 14a #82-27</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1988.2924092756652!2d-74.05688504210532!3d4.667868072466973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af50fd7c34f%3A0x8a8fe782ac5272fa!2sCra.%2014a%20%2382-27%2C%20Bogot%C3%A1%2C%20Colombia!5e0!3m2!1ses-419!2sde!4v1647616218494!5m2!1ses-419!2sde" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="box">
+            <div class="nosotros">
+                <h2>Nosotros</h2>
+                <p><a href="">Acerca de Virtuosa</a>
+                    <a href="">Trabaja con nosotros</a>
+                    <a href="">Contáctanos</a></p>
+            </div>
+            <div class="informacion">
+                <h2>Información</h2>
+                <p><a href="">Centro de ayuda</a>
+                    <a href="">Devoluciones</a><br>
+                    <a href="">Preguntas frecuentes</a><br>
+                    <a href="">¿Como comprar?</a><br>
+                    <a href="">Guia de tallas</a><br>
+                    <a href="">Actualiza tus datos</a><br>
+                    <a href="">Promociones vigentes</a></p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="categor">
+                <h2>Categorias</h2>
+                <p><a href="">Boutique</a><br>
+                    <a href="">Maquillaje natural</a></p>
+            </div>
+            <div class="atajos">
+                <a href=""><i class="fa-solid fa-clock fa-lg"></i>Rastrea tu orden</a>
+                <a href=""><i class="fa-solid fa-circle-user fa-lg"></i>Mis pedidos</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="suscribete">
+                <h6>SUSCRIBETE AL NEWSLETTER PARA RECIBIR TODAS LAS NOVEDADES</h6>
+                <button><a href="#">Suscribete aqui</a></button>
+            </div>
+
+            <div class="red-social" >
+                <a href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="grupo-2">
+        <small>&copy;2022 <b>Virtuosa S. A.</b> - Todos los Derechos Reservados </small>
+    </div>
+</footer>
+</html>
