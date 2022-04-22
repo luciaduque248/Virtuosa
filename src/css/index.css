@@ -33,7 +33,7 @@ body{
 
 
 .maquillaje{
-    background-image: url(/src/assets/img/makeupIndex.svg);
+    background-image: url(../assets/img/makeupIndex.svg);
     background-size: cover;
     padding-top: 3rem;
     padding-left: 3rem;
@@ -72,7 +72,7 @@ body{
 
 .ropa{
     margin-top: 10px;
-    background-image: url(/src/assets/img/ropaIndex.svg);
+    background-image: url(../assets/img/ropaIndex.svg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 3rem;
