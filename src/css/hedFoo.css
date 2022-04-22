@@ -167,10 +167,10 @@ nav{
 }
 /* ::::::::::::::::::::::::::::::::::::::::: FOOTER ::::::::::::::::::::::::::::::::::::::::: */
 footer{
-    background-color: #f5f5f5;
-    color: #313030;
+    background-color: #655F5F;
+    color: #fff;
    z-index: 10;
-    border-top: solid;
+    border-top: solid;;
 }
 
 
@@ -207,10 +207,11 @@ footer .grupo-1 .box h2{
     font-weight: 400;
 }
 
-footer .grupo-1 .box .informacion h2{
+footer .grupo-1 .box .informacion h2, footer .grupo-1 .box .informacion h2{
     margin-top: 1.5rem;
     position: relative;
     left: 1.2rem;
+    color: #fff;
 }
 
 footer .grupo-1 .box p{
@@ -222,16 +223,19 @@ footer .grupo-1 .box p{
     font-weight: 300;
     font-size: 2vw;
     padding-left: 0.5rem;
-    
+    color: #fff;
 }
 
 footer .grupo-1 .box a{
-    color: #313030;
+    color: #f5f5f5;
     text-decoration: none;
     margin-top: 1rem;
     font-size: 2vw;
 }
-
+footer .grupo-1  a{
+    color: #f5f5f5;
+   
+}
 .atajos{
     display: flex;
     flex-direction: column;
@@ -280,7 +284,7 @@ footer .grupo-2{
     background-color: #313030;
     padding: 15px 10px;
     text-align: center;
-    color: #313030;
+    color: #f5f5f5;
 }
 
 footer .grupo-2 small{
