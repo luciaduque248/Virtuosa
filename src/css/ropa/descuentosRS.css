@@ -15,68 +15,6 @@ body{
     overflow-x: hidden;
 }
 /* ::::::::::::::::::::::::::::::::::::::::: HEADER ::::::::::::::::::::::::::::::::::::::::: */
-header{
-    height: 170px;
-}
-
-.cuadroHeader img{
-    width: 100%;
-    max-width: 1500px;
-    height: 15px;
-}
-
-.cuadroHeader1{
-    background-image: url(/src/assets/img/cuadroBLACK.svg);
-    background-size: cover;
-    color: white;
-    margin-top: -4px;
-    padding: 0.5rem;
-    text-align: center;
-}
-
-
-.centerSearch{
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-}
-
-.iconos{
-    position: absolute;
-    top: 12%;
-    left: 85%;
-    color: #312B89;
-}
-
-.fa-derecha{
-    margin: 0 1rem;
-}
-
-.fondonav{
-    margin: -70px 0;
-    display: flex;
-    background-image: url(/src/assets/img/navbarLOGO.svg);
-    background-size: cover;
-    height: 120px;
-    
-}
-
-.fondonav img{
-    width: 100%;
-    max-width: 10000px;
-
-}
-
-.fondonav p{
-    margin: 0 1.8rem;
-    position: relative;
-    top: 70%;
-    left: 17%;
-}
-
-.fondonav p i{
-    margin: 0 1rem;
-}
 
 /* ::::::::::::::::::::::::::::::::::::::::: BODY ::::::::::::::::::::::::::::::::::::::::: */
 
